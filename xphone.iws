@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c1865a-1947-4ce6-b638-028cb1d9ca9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/mixin/MinecraftClientMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/mixin/MinecraftClientMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/screens/xphone_1_gui/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/screens/xphone_1_gui/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/xphone/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/xphone/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/xphone/lang/zh_cn.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/xphone/lang/zh_cn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xphone.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/xphone.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/items/phones/xphone_1/XPhone1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/items/phones/xphone_1/XPhone1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xphone.iws" beforeDir="false" afterPath="$PROJECT_DIR$/xphone.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

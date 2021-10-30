@@ -80,24 +80,28 @@ public abstract class XPhone1 extends XPhoneItem {
                 return ActionResult.FAIL;
             }
             NbtList blocks=itemStack.getOrCreateTag().getList(NBT_LIST_REMOTE_REDSTONE_RECEIVERS,10/*10相当于存放jsonObject*/);
-            if(blocks.size()>=5){
-                Utils.showMessage(context,new TranslatableText("message.xphone.bind_remote_redstone_receiver_too_much"));
-                return ActionResult.FAIL;
-            }
 
+            int j=0;
             for(int i=0;i<blocks.size();i++){
                 NbtCompound block=blocks.getCompound(i);
                 if(block!=null){
                     if(block.contains("x")&&
                             block.contains("y")&&
-                            block.contains("z")&&
-                            block.getInt("x")==pos.getX()&&
-                            block.getInt("y")==pos.getY()&&
-                            block.getInt("z")==pos.getZ()){
-                        Utils.showMessage(context,new TranslatableText("message.xphone.bind_remote_redstone_receiver_duplicate_bind"));
-                        return ActionResult.FAIL;
+                            block.contains("z")){
+                        j++;
+                        if(
+                                block.getInt("x")==pos.getX()&&
+                                        block.getInt("y")==pos.getY()&&
+                                        block.getInt("z")==pos.getZ()){
+                            Utils.showMessage(context,new TranslatableText("message.xphone.bind_remote_redstone_receiver_duplicate_bind"));
+                            return ActionResult.FAIL;
+                        }
                     }
                 }
+            }
+            if(j>=5){
+                Utils.showMessage(context,new TranslatableText("message.xphone.bind_remote_redstone_receiver_too_much"));
+                return ActionResult.FAIL;
             }
             NbtCompound block=new NbtCompound();
             block.putInt("x",pos.getX());
@@ -124,4 +128,6 @@ public abstract class XPhone1 extends XPhoneItem {
     public static enum XPhone1Type{
         DEFAULT,HORN,WLAN_CONNECTOR,COMPLETE
     }
+
+
 }
