@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c1865a-1947-4ce6-b638-028cb1d9ca9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/items/phones/xphone_1/XPhone1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/items/phones/xphone_1/XPhone1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/xphone/recipes/remote_redstone_receiver.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xphone.iws" beforeDir="false" afterPath="$PROJECT_DIR$/xphone.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/data/xphone/recipes" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -109,11 +109,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AdministratorDocuments\Projects\xphone\src\main\resources\data\xphone\recipes" />
       <recent name="D:\AdministratorDocuments\Projects\xphone\src\main\resources\data\xphone" />
       <recent name="D:\AdministratorDocuments\Projects\xphone\src\main\resources\assets\xphone\models\item" />
       <recent name="D:\AdministratorDocuments\Projects\xphone\src\main\resources\assets\xphone" />
       <recent name="D:\AdministratorDocuments\Projects\xphone\src\main\resources\assets\xphone\models\block" />
-      <recent name="D:\AdministratorDocuments\Projects\xphone\src\main\resources\assets\xphone\textures\block" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mrshiehx.mcmods.xphone.block" />
