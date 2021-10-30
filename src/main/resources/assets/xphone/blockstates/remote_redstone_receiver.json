@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=true": {
+      "model": "xphone:block/remote_redstone_receiver_on"
+    },
+    "lit=false": {
+      "model": "xphone:block/remote_redstone_receiver_off"
+    }
+  }
+}

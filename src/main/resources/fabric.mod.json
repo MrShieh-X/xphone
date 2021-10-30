@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "xphone",
+  "version": "1.0",
+
+  "name": "XPhone",
+  "description": "Use mobile phone on Minecraft.",
+  "authors": [
+    "MrShiehX"
+  ],
+  "contact": {
+    "homepage": "https://mrshiehx.xyz/",
+    "sources": "https://github.com/MrShieh-X/xphone"
+  },
+
+  "license": "GNU-1.0",
+  "icon": "assets/xphone/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mrshiehx.mcmods.xphone.XPhone"
+    ]
+  },
+  "mixins": [
+    "xphone.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "java": ">=8"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

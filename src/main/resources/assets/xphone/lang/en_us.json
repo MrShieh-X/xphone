@@ -1,0 +1,55 @@
+{
+  "item.xphone.battery": "Battery",
+  "item.xphone.cpu": "855 CPU",
+  "item.xphone.gpu": "8855 GPU",
+  "item.xphone.horn": "Horn",
+  "item.xphone.mainboard": "Mainboard",
+  "item.xphone.wrapped_mainboard_for_xphone_1": "Wrapped Mainboard for XPhone 1",
+  "item.xphone.ram_512k": "512KB RAM",
+  "item.xphone.rom_8gb": "8GB ROM",
+  "item.xphone.screen": "Phone Screen",
+  "item.xphone.shell": "Phone Shell",
+  "item.xphone.wlan_connector": "WLAN Connector",
+  "item.xphone.xphone_1": "XPhone 1",
+  "item.xphone.xphone_1_wc": "XPhone 1",
+  "item.xphone.xphone_1_horn_wc": "XPhone 1",
+  "item.xphone.xphone_1_horn": "XPhone 1",
+
+  "block.xphone.remote_redstone_receiver": "Remote Redstone Receiver",
+
+  "itemGroup.xphone.item_group_xphone": "XPhone",
+
+  "options.changeTitle.title": "Change Window Title",
+  "options.changeTitle": "Change Window Title",
+
+  "changeTitle.change": "set a new title of window",
+
+  "advancements.story.xphone_1_series.title": "Information Era",
+  "advancements.story.xphone_1_series.description": "Use smartphones",
+
+  "componentModel.855cpu": "855 CPU",
+  "componentModel.8855gpu": "8855 GPU",
+  "componentModel.512k_ram": "512KB RAM",
+  "componentModel.8gb_rom": "8GB ROM",
+
+  "itemTooltip.xphone1.default": "No horn and WLAN connector",
+  "itemTooltip.xphone1.no_horn": "No horn",
+  "itemTooltip.xphone1.no_wlan_connector": "No WLAN connector",
+  "itemTooltip.remote_redstone_receiver_1": "Usage of binding:",
+  "itemTooltip.remote_redstone_receiver_2": "hold an XPhone with bound no",
+  "itemTooltip.remote_redstone_receiver_3": "more than 5 Remote Redstone Receivers,",
+  "itemTooltip.remote_redstone_receiver_4": "aim at the Remote Redstone Receiver,",
+  "itemTooltip.remote_redstone_receiver_5": "press and hold the sneak button,",
+  "itemTooltip.remote_redstone_receiver_6": "and click the right mouse button to bind.",
+
+  "gui.xphone_1.title": "XPhone 1",
+
+  "application.change_window.title": "Change Window Title",
+  "application.redstone_controller.title": "Redstone Controller",
+
+  "message.xphone.set_volume": "Current Volume: %d",
+  "message.xphone.bind_remote_redstone_receiver_unable": "Unable to bind",
+  "message.xphone.bind_remote_redstone_receiver_too_much": "Unable to bind. The maximum number of bindings is five",
+  "message.xphone.bind_remote_redstone_receiver_duplicate_bind": "Unable to bind. Can't duplicate binding",
+  "message.xphone.bind_remote_redstone_receiver_successfully": "Bound Successfully"
+}

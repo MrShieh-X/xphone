@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "xphone:item/wrapped_mainboard_for_xphone_1"
+  }
+}

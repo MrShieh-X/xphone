@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xphone:cpu"
+    },
+    {
+      "item": "xphone:ram_512k"
+    },
+    {
+      "item": "xphone:rom_8gb"
+    },
+    {
+      "item": "xphone:mainboard"
+    },
+    {
+      "item": "xphone:gpu"
+    }
+  ],
+  "result": {
+    "item": "xphone:wrapped_mainboard_for_xphone_1"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "display": {
+    "icon": {
+      "item": "xphone:xphone_1",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.story.xphone_1_series.title"
+    },
+    "description": {
+      "translate": "advancements.story.xphone_1_series.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "f1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "xphone:xphone_1_horn_wc"
+            ]
+          }
+        ]
+      }
+    },
+    "f2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "xphone:xphone_1_wc"
+            ]
+          }
+        ]
+      }
+    },
+    "f3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "xphone:xphone_1_horn"
+            ]
+          }
+        ]
+      }
+    },
+    "f4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "xphone:xphone_1"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "f1",
+      "f2",
+      "f3",
+      "f4"
+    ]
+  ]
+}

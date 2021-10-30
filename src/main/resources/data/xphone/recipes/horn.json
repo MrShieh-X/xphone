@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "GAG",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "minecraft:cobblestone"
+    },
+    "A": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "xphone:horn"
+  }
+}

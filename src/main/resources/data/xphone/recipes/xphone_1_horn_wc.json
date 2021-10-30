@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "xphone:battery"
+    },
+    {
+      "item": "xphone:shell"
+    },
+    {
+      "item": "xphone:screen"
+    },
+    {
+      "item": "xphone:wrapped_mainboard_for_xphone_1"
+    },
+    {
+      "item": "xphone:horn"
+    },
+    {
+      "item": "xphone:wlan_connector"
+    }
+  ],
+  "result": {
+    "item": "xphone:xphone_1_horn_wc"
+  }
+}

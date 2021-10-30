@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "SYS",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:cobblestone"
+    },
+    "Y": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "xphone:mainboard"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "item.xphone.battery": "电池",
+  "item.xphone.cpu": "855 CPU",
+  "item.xphone.gpu": "8855 GPU",
+  "item.xphone.horn": "喇叭",
+  "item.xphone.mainboard": "主板",
+  "item.xphone.wrapped_mainboard_for_xphone_1": "XPhone 1 的已组装好的主板",
+  "item.xphone.ram_512k": "512KB 运行内存",
+  "item.xphone.rom_8gb": "8GB 存储内存",
+  "item.xphone.screen": "手机屏幕",
+  "item.xphone.shell": "手机壳",
+  "item.xphone.wlan_connector": "WLAN 连接器",
+  "item.xphone.xphone_1": "XPhone 1",
+  "item.xphone.xphone_1_wc": "XPhone 1",
+  "item.xphone.xphone_1_horn_wc": "XPhone 1",
+  "item.xphone.xphone_1_horn": "XPhone 1",
+
+  "block.xphone.remote_redstone_receiver": "远程红石接收器",
+
+  "itemGroup.xphone.item_group_xphone": "XPhone",
+
+  "options.changeTitle.title": "更改窗口标题",
+  "options.changeTitle": "更改窗口标题",
+
+  "changeTitle.change": "为窗口设置一个新的标题",
+
+  "advancements.story.xphone_1_series.title": "信息时代",
+  "advancements.story.xphone_1_series.description": "使用智能手机",
+
+  "componentModel.855cpu": "855 CPU",
+  "componentModel.8855gpu": "8855 GPU",
+  "componentModel.512k_ram": "512KB 运行内存",
+  "componentModel.8gb_rom": "8GB 存储内存",
+
+  "itemTooltip.xphone1.default": "无喇叭和 WLAN 连接器",
+  "itemTooltip.xphone1.no_horn": "无喇叭",
+  "itemTooltip.xphone1.no_wlan_connector": "无 WLAN 连接器",
+  "itemTooltip.remote_redstone_receiver_1": "绑定方法：",
+  "itemTooltip.remote_redstone_receiver_2": "手持绑定远程红石接收器",
+  "itemTooltip.remote_redstone_receiver_3": "数量不超过5个的 XPhone，",
+  "itemTooltip.remote_redstone_receiver_4": "对准远程红石接收器",
+  "itemTooltip.remote_redstone_receiver_5": "按住潜行按钮单击鼠标右键，",
+  "itemTooltip.remote_redstone_receiver_6": "即可绑定。",
+
+  "gui.xphone_1.title": "XPhone 1",
+
+  "application.change_window.title": "更改窗口标题",
+  "application.redstone_controller.title": "红石控制器",
+
+  "message.xphone.set_volume": "当前音量：%d",
+  "message.xphone.bind_remote_redstone_receiver_unable": "绑定失败",
+  "message.xphone.bind_remote_redstone_receiver_too_much": "绑定失败，绑定数量最多为五个",
+  "message.xphone.bind_remote_redstone_receiver_duplicate_bind": "绑定失败，不能重复绑定",
+  "message.xphone.bind_remote_redstone_receiver_successfully": "绑定成功"
+}
