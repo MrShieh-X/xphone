@@ -64,17 +64,14 @@ public enum UserInterface {
             ItemStack itemStack = api.getItemStack();
             NbtList blocks;
             if(intent!=null&&intent.size()>0){
-                System.out.println("67");
                 Object o=intent.get("blocks");
                 if(o instanceof NbtList){
                     blocks=(NbtList) o;
                 }else{
-                    System.out.println("72");
 
                     blocks = itemStack.getOrCreateTag().getList(XPhone1.NBT_LIST_REMOTE_REDSTONE_RECEIVERS, 10/*10相当于存放jsonObject*/);
                 }
             }else {
-                System.out.println("76");
                 blocks = itemStack.getOrCreateTag().getList(XPhone1.NBT_LIST_REMOTE_REDSTONE_RECEIVERS, 10/*10相当于存放jsonObject*/);
             }
             if (blocks.size() > 0) {
@@ -105,6 +102,8 @@ public enum UserInterface {
                                                     ? client.getServer().getOverworld().getBlockState(rrpos).with(RemoteRedstoneReceiver.LIT, false)
                                                     : client.getServer().getOverworld().getBlockState(rrpos).with(RemoteRedstoneReceiver.LIT, true));
                                     //client.player.sendMessage(new TranslatableText("switch"), true);
+                                }else{
+                                    client.player.sendMessage(new TranslatableText("message.remote_redstone_receiver.not_a_remote_redstone_receiver"),true);
                                 }
                             }
                         });

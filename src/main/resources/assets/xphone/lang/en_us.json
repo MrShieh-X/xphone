@@ -51,5 +51,6 @@
   "message.xphone.bind_remote_redstone_receiver_unable": "Unable to bind",
   "message.xphone.bind_remote_redstone_receiver_too_much": "Unable to bind. The maximum number of bindings is five",
   "message.xphone.bind_remote_redstone_receiver_duplicate_bind": "Unable to bind. Can't duplicate binding",
-  "message.xphone.bind_remote_redstone_receiver_successfully": "Bound Successfully"
+  "message.xphone.bind_remote_redstone_receiver_successfully": "Bound Successfully",
+  "message.remote_redstone_receiver.not_a_remote_redstone_receiver": "Unable to switch, the target block does not exist or is not a Remote Redstone Receiver"
 }

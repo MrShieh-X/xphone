@@ -51,5 +51,6 @@
   "message.xphone.bind_remote_redstone_receiver_unable": "绑定失败",
   "message.xphone.bind_remote_redstone_receiver_too_much": "绑定失败，绑定数量最多为五个",
   "message.xphone.bind_remote_redstone_receiver_duplicate_bind": "绑定失败，不能重复绑定",
-  "message.xphone.bind_remote_redstone_receiver_successfully": "绑定成功"
+  "message.xphone.bind_remote_redstone_receiver_successfully": "绑定成功",
+  "message.remote_redstone_receiver.not_a_remote_redstone_receiver": "切换失败，目标方块不存在或不是一个远程红石接收器"
 }

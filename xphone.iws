@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c1865a-1947-4ce6-b638-028cb1d9ca9c" name="Default Changelist" comment="" />
+    <list default="true" id="e6c1865a-1947-4ce6-b638-028cb1d9ca9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/mixin/MinecraftClientMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/mixin/MinecraftClientMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/screens/xphone_1_gui/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrshiehx/mcmods/xphone/screens/xphone_1_gui/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/xphone/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/xphone/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/xphone/lang/zh_cn.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/xphone/lang/zh_cn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xphone.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/xphone.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xphone.iws" beforeDir="false" afterPath="$PROJECT_DIR$/xphone.iws" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +66,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -77,6 +87,7 @@
       <profile-state />
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -234,6 +245,18 @@
       <updated>1634983683957</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />

@@ -29,6 +29,6 @@ public class MinecraftClientMixin {
 
 	@Inject(at=@At("TAIL"),method = "openScreen(Lnet/minecraft/client/gui/screen/Screen;)V")
 	public void openScreen(Screen screen, CallbackInfo ci) {
-		if(screen!=null&&screen.getClass()!=null)XPhone.LOGGER.info("openScreen: "+screen.getClass().getName());
+		//if(screen!=null&&screen.getClass()!=null)XPhone.LOGGER.info("openScreen: "+screen.getClass().getName());
 	}
 }
